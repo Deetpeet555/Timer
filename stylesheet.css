@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+}
+
+.timer button{
+    width: 200px;
+    height: 50px;
+    background-color: wheat;
+    color: blue;
+    border-radius: 100px;
+    font-size: larger;
+}
+
+.timer h2{
+    border-color: black;
+    width: 100%;
+    padding: 10px;
+    color: navy;
+    border-style: solid;
+    font-size: 50px;
+    text-align: center;
+}
+
+.timer{
+    float:left;
+    padding-left: 50px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+button{
+    width: 870px;
+    height: 100px;
+    background-color: navy;
+    color: wheat;
+    border-radius: 100px;
+    font-size: 50px;
+    margin-left: 45px;
+}
+
+.modal{
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+}
+
+.modal p{
+    color: aliceblue;
+    padding-left: 100px;
+}
+
+.modal-content{
+    margin: auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-color: burlywood;
+    border-width: 25px;
+    border-style: double;
+    background-color: blue;
+}
